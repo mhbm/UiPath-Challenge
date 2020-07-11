@@ -1,10 +1,11 @@
 {
   "name": "TKS-Challenge",
   "description": "Processo em Branco",
-  "main": "Main.xaml",
+  "main": "AnswerMail.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.9.0-preview]",
     "UiPath.Mail.Activities": "[1.9.0-preview]",
+    "UiPath.PDF.Activities": "[3.2.2]",
     "UiPath.System.Activities": "[20.6.1-preview]",
     "UiPath.UIAutomation.Activities": "[20.6.0-preview]"
   },
