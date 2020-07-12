@@ -28,9 +28,9 @@ path_file_pdf //variable for path that contains pdf file
 output_path //variable for path that will generate csv file
 ```
 
-### 3. PDFtoCSV.xaml
+### 3. AnswerMail.xaml
 
-This activity is responsible to create the CSV file according to PDF in the first activity
+This activity is responsible to reply the specific mail
 
 ```javascript 
 email_google //variable for the gmail account 
