@@ -62,7 +62,7 @@
   </sap:WorkflowViewStateService.ViewState>
   <Sequence DisplayName="PDFtoCSV" sap:VirtualizedContainerService.HintSize="2077,4657" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
-      <Variable x:TypeArguments="x:String" Default="C:\Users\mmace\Downloads\TsExt1002JRRefP2_P994739740FAT_5229420_TS_000009_FACADE_20200706151009284.pdf" Name="path_file_pdf" />
+      <Variable x:TypeArguments="x:String" Default="C:\Users\mmace\Downloads\TsExt1002JRRefP2_P994739740FAT_5229420_TS_000009_FACADE_20200706151009284.pdf" Modifiers="ReadOnly" Name="path_file_pdf" />
       <Variable x:TypeArguments="x:String" Name="extractedText" />
       <Variable x:TypeArguments="s:String[]" Name="arrayText" />
       <Variable x:TypeArguments="x:String" Name="credenciado" />

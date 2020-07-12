@@ -58,13 +58,13 @@
   </sap:WorkflowViewStateService.ViewState>
   <Sequence sap:VirtualizedContainerService.HintSize="527,299" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
-      <Variable x:TypeArguments="x:String" Default="mhbassomacedo@gmail.com" Name="email_google" />
-      <Variable x:TypeArguments="x:String" Name="password_google">
+      <Variable x:TypeArguments="x:String" Default="mhbassomacedo@gmail.com" Modifiers="ReadOnly" Name="email_google" />
+      <Variable x:TypeArguments="x:String" Modifiers="ReadOnly" Name="password_google">
         <Variable.Default>
           <Literal x:TypeArguments="x:String" Value="" />
         </Variable.Default>
       </Variable>
-      <Variable x:TypeArguments="x:String" Default="from:(thiago.leao@tks-br.com) subject:(Teste UIPath - TKS - Mateus Macedo)" Name="subject_email" />
+      <Variable x:TypeArguments="x:String" Default="from:(thiago.leao@tks-br.com) subject:(Teste UIPath - TKS - Mateus Macedo)" Modifiers="ReadOnly" Name="subject_email" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
