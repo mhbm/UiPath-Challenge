@@ -1,7 +1,7 @@
 {
   "name": "TKS-Challenge",
   "description": "Processo em Branco",
-  "main": "AnswerMail.xaml",
+  "main": "PDFtoCSV.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.9.0-preview]",
     "UiPath.Mail.Activities": "[1.9.0-preview]",
